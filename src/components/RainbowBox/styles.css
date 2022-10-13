@@ -1,0 +1,56 @@
+.rainbow__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-margin-after: 60px;
+          margin-block-end: 60px;
+}
+.rainbow__wrapper h2 {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.rainbow__actions {
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  display: flex;
+}
+.rainbow__box {
+  height: 300px;
+  width: 600px;
+  border-radius: 12px;
+}
+
+.btn {
+  margin: 0 20px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: grey;
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.btn--red {
+  background-color: red;
+}
+.btn--green {
+  background-color: green;
+}
+.btn--blue {
+  background-color: blue;
+}
+.btn--orange {
+  background-color: orange;
+}
+.btn--pink {
+  background-color: pink;
+}
+
+.btn:hover {
+  box-shadow: 0px 1px 6px 3px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=styles.css.map */
