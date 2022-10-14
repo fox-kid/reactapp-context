@@ -9,6 +9,7 @@
             margin-block-end: 20px;
             background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
             -webkit-text-fill-color: transparent;
+            background-clip: text;
             -webkit-background-clip: text;  
         }
     }
